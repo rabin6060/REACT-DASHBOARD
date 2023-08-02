@@ -1,0 +1,44 @@
+.topbox{
+    h2{
+        margin-bottom: 15px;
+    }
+    .list{
+        .topdetails{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px;
+    
+            .top-user{
+                display: flex;
+                align-items: center;
+                gap: 15px;
+                .icon{
+                    width: 35px;
+                    height: 35px;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+                .userInfo{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 3px;
+                    span{
+                        &:first-child{
+                            font-size: 14px;
+                            font-weight: 500;
+                        }
+                        &:last-child{
+                            font-size: 12px;
+                        }
+                    }
+                 
+                }
+                .amount{
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+
+}
